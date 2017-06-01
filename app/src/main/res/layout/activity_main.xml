@@ -6,15 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="50dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     android:paddingTop="50dp"
     tools:context="jp.techachademy.rika.sumitomo.myapplication.MainActivity">
 
 
-
     <TextView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Hello_android"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HelloWorld!"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="50sp" />
+
+
 </LinearLayout>
